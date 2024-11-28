@@ -1,18 +1,23 @@
-# FULL_ADDER_SUBTRACTOR
+## NAME : HASMITHA.V.NANCY
+## REG NO : 24004046
+## EXPERIMENT NO 4: FULL_ADDER_SUBTRACTOR
+
+
+
 
 Implementation-of-Full-Adder-and-Full-subtractor-circuit
 
-**AIM:**
+# AIM:
 
 To design a Full Adder and Full Subtractor circuit and verify its truth table in Quartus using Verilog programming.
 
-**Equipments Required:**
+# EQUIPMENTS REQUIRED:
 
 Hardware – PCs, Cyclone II , USB flasher
 
 Software – Quartus prime
 
-**Full Adder and Full Subtractor**
+# Full Adder and Full Subtractor
 
 **Full Adder**
 
@@ -36,22 +41,36 @@ Diff = A ⊕ B ⊕ Bin
 
 Borrow out = A'Bin + A'B + BBin
 
-**Truthtable**
+**TRUTH TABLE**
+![TRUTH TABLE ](https://github.com/user-attachments/assets/0e820213-f9fe-43e5-900b-5b737ec97942)
 
-**Procedure**
 
-Write the detailed procedure here
 
-**Program:**
+**PROCEDURE**
 
-/* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
+Implementing BOOLEAN functions in Verilog HDL (Hardware Description Language) involves translating the simplified Boolean expressions into Verilog code to describe the behavior of digital circuits. The basic building blocks in Verilog is module. The module represent a combinational circuit. Use logical operators (&, |, ~, ^) to implement Boolean functions directly. Use built-in gate primitives for basic functions. Use University program VWF to verify the functionality of your Verilog modules. Create waveform and check outputs against expected results.
+
+
+
+**PROGRAM:**
+![PROGRAM](https://github.com/user-attachments/assets/23081a96-9161-4b73-a0b1-7b83b557858b)
+
+
+
+/* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. 
 */
 
-**RTL Schematic**
+**RTL OUTPUT**
 
-**Output Timing Waveform**
+![CIRCUIT](https://github.com/user-attachments/assets/55370082-ad3e-4f7d-9c54-7f3969edba5b)
 
-**Result:**
+
+**OUTPUT WAVEFORM**
+
+![WAVEFORM](https://github.com/user-attachments/assets/a3c5f181-527f-4140-aec4-f5f75013ebd7)
+
+
+**RESULT:**
 
 Thus the Full Adder and Full Subtractor circuits are designed and the truth tables is verified using Quartus software.
 
